@@ -1,17 +1,14 @@
 from django.http import HttpResponse
+from django.template import Context
+from django.template.loader import get_template
 
 def main_page(request):
-    output = u'''
-        <html>
-            <head><title>%s</title></head>
-            <body>
-                <h1>%s</h1><p>%s</p>
-            </body>
-        </html>
-    ''' % (
-            u'Django Bookmarks',
-         u'Welcome to Django Bookmarks',
-         u'Where you can store and share bookmarks!'
-         )
+    template = get_template('main_page.html')
 
+    variables = Context({
+        'head_title': u'Django Bookmarks',
+        'page_title': u'Welcome to Django Bookmarks',
+        'page_body': u'Where you can store and share bookmarks!'
+    })
+    output = template.render(variables)
     return HttpResponse(output)

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc8810d8-b56d-4d0f-a381-366623dbfb84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/user_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarksdb" afterPath="$PROJECT_DIR$/bookmarksdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmarks/views.py" afterPath="$PROJECT_DIR$/bookmarks/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user_page.html" afterPath="$PROJECT_DIR$/templates/user_page.html" />
     </list>
     <ignored path="django_bookmarks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +45,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -57,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_page.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user_page.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/user_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="196" selection-end="196" vertical-scroll-proportion="-3.75">
+            <state line="16" column="6" selection-start="466" selection-end="466" vertical-scroll-proportion="0.2919708">
               <folding />
             </state>
           </provider>
@@ -93,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.12411348">
+            <state line="8" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -396,9 +392,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bookmarks/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -407,14 +410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="196" selection-end="196" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="175" selection-end="175" vertical-scroll-proportion="0.12411348">
+        <state line="16" column="6" selection-start="466" selection-end="466" vertical-scroll-proportion="0.2919708">
           <folding />
         </state>
       </provider>

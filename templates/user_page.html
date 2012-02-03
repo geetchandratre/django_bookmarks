@@ -1,0 +1,14 @@
+<html>
+    <head>Bookmarks For User - {{ username }}</head>
+    <body>
+        {% if bookmarks %}
+            {% for bookmark in bookmarks %}
+                <ul>
+                    <li><a href="{{bookmark.link.url}}">bookmark</a></li>
+                </ul>
+            {% endfor %}
+        {% else %}
+            <p>No bookmarks found</p>
+        {% endif %}
+    </body>
+</html>
